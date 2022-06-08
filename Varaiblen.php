@@ -31,3 +31,4 @@ echo count($arrayNamen); //Gibt die gesamte Anzahl der gespeicherten Werte aus.
 $arrayMixed = ['Peter', 5, 2.3, 'c', true];
 var_dump($arrayMixed);
 $assocArray = ['id' => 1, 'price' => 15.2, 'name' => 'Apple iPod', 'neuesArray' => [5]];
+?>

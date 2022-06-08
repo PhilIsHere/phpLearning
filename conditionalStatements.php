@@ -73,3 +73,4 @@ switch ($bier){ //In den antworten ist kein Größer gleich und ähnliches mögl
         break;
     default: echo 'Wir rufen einen Krankenwagen' . PHP_EOL;
 }
+?>
