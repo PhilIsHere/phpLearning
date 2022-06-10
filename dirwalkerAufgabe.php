@@ -35,4 +35,3 @@ function dirwalker($foldername){
 
 }
 dirwalker('/home/phil/PhpstormProjects/phpLearning/dirwalker/');
-?>

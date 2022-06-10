@@ -11,4 +11,3 @@ echo "Hello World" . PHP_EOL;
 echo "Ich " . "habe ". "einen " . "String " . "verknüpft" . PHP_EOL; //Darstellung d. Verknüpfung von Strings via Punkt
 
 //Stoppt den Interpreter:
-?>

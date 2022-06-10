@@ -6,7 +6,7 @@
  * Schritt 4: Wenn File --> Print, wenn Ordner --> als String speichern
  * Schritt 5: Ordnerstrings an den Userpfad anhängen und bei Schritt 1 neu beginnen
  * @param $ordnername
- * $foldername ist das Verzeichnis, was der User rekursiv angezeigt haben möchte. Akzeptiert wird ausschließlich ein gültiger Verzeichnispfad, auf den der User Zugriffsrechte hat.
+ * $ordnername ist das Verzeichnis, was der User rekursiv angezeigt haben möchte. Akzeptiert wird ausschließlich ein gültiger Verzeichnispfad, auf den der User Zugriffsrechte hat.
  */
 
 
@@ -15,7 +15,7 @@ function dirwalker($ordnername){
         echo 'Ordner gefunden! Starte dirwalker für Verzeichnis: '.$ordnername.PHP_EOL;
         //Lösche dot-Ordner aus array, falls vorhanden. array_diff gibt nur werte raus, die sich unterschieden. In dem Fall ist der Vergleichsarray selbst erstellt array('..', '.')
         //Quelle: Scandir Notes https://www.php.net/manual/de/function.scandir.php
-        $arbeitsordner = array_diff(scandir($ordnername), array('..', '.'));
+        $arbeitsordner = array_diff(scandir($ordnername), array('..', '.')); //Ein Punkt nutzt das aktuelle Verzeichnis
         echo 'Inhalt von ' . $ordnername.':'.PHP_EOL;
         //Gehe den Arbeitsordner durch
         foreach ($arbeitsordner as $value){

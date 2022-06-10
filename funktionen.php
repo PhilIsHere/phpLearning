@@ -138,9 +138,8 @@ function rekursiv($x) {
 }
 rekursiv(7);
 // ToDo Philip: Schreibe eine Rekursive Funktion die ab einem Ordner deiner Wahl das Filesystem durchsucht und den namen aller Files ausgibt.
-// ToDo Philip: Fibunacci Folge Rkursiv berechnen 0 1 1 2 3 und berechne die Fibunacci-Zahl von 5 und 30
+// ToDo Philip: Fibonacci Folge Rekursiv berechnen 0 1 1 2 3 und berechne die Fibunacci-Zahl von 5 und 30
 // Bonus: Wenn du Lust hast vergleiche die Rechenzeit mit einer nicht-rekursiven Funktion - time();
 
 
 //Dirwalker aufgabe
-?>

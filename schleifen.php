@@ -48,4 +48,3 @@ foreach ($assocArray as $key => $value) { //Syntaxlogik: Gebe mir von ARRAYNAME 
         //break x; //schließt die darüberliegenden Schleifen ab. x = abzubrechende Ebenen.
     }
 }
-?>
